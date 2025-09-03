@@ -1,0 +1,141 @@
+body.chambres {
+    background-color: #252525;
+    color: rgba(255, 253, 253, 0.986);
+    border: 50px;
+
+    // p {
+    //     color: #818181;
+    // }
+}
+
+main.Chambresmain p { color: #727272;}
+
+.imagetitre {
+    width: 100%;
+    display: grid;
+    // margin-left: 272px;
+}
+
+.enteteChambre {
+    margin-left: 320px;   
+}
+
+
+.oui {
+    line-height: 35px;
+}
+
+.like,
+.man {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+        color: #aa8453;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: left;
+    margin-left: 380px;
+}
+
+.grid .checki {
+    width: 250px;
+}
+
+.grid .checko {
+    margin-left: 200px;
+    width: 250px;
+}
+
+.box {
+    margin-top: 50px;
+    margin-left: 380px;
+    margin-right: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: flex-start;
+}
+
+.box .ducs {
+    color: #aa8453;
+}
+
+.box .lorem {
+    width: 900px;
+    font-size: 15px;
+}
+
+.box1 {
+    margin-left: 380px;
+}
+
+.box2 {
+    margin-left: 380px;
+}
+
+.box3 {
+    margin-left: 380px;
+}
+
+.box4 {
+    margin-left: 380px;
+}
+
+.box5 {
+    margin-top: 200px;
+    margin-left: 380px;
+    margin-right: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    justify-content: flex-start;
+}
+
+.chambrespropos {
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer span {
+    color: white;
+}
+
+button {
+    padding: 10px 15px 10px;
+    color: white;
+    background-color: rgba(117, 115, 115, 0.877);
+}
+
+.titre {
+    position: relative;
+    bottom: 500px;
+    color: rgb(2, 2, 2);
+}
+
+.imagetitre {
+    opacity: 0.7;
+}
+
+.h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    margin-block-start: 0.67em;
+    -webkit-margin-after: 0.67em;
+    margin-block-end: 0.67em;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

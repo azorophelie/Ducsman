@@ -1,0 +1,82 @@
+/* Header */
+.header1 {
+    background-color: #1b1b1b;
+    color: #aa8453;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    width: 15rem;
+    padding-right: 2rem;
+    position: fixed;
+    height: 100vh;
+
+}
+
+.stars {
+    display: flex;
+    flex-flow: row nowrap;
+    color: #aa8453;
+}
+
+.titreHeader {text-align: center;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;}
+
+.liste {
+    color: #676767;
+    line-height: 50px;
+}
+
+.left2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.left2 .left21 {
+    order: 1;
+}
+
+.left2 .left21 i {
+    font-size: 30px;
+    margin-left: -30%;
+    margin-top: 1500px;
+}
+
+.left2 .left22 {
+    order: 2;
+    width: 80%;
+    line-height: 60%;
+}
+
+.left2 .num {
+    color: #aa8453;
+    font-size: 18px;
+    margin-left: 7%;
+    line-height: 60%;
+}
+
+.left2 .info {
+    font-size: 15px;
+    margin-left: 7%;
+    color: #676767;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#676767;
+}
+
+header nav a.activeElie {
+    color: #aa8453;
+}
+
+header .left2 i {color:#aa8453}
+
+/* menu burger */
+.menuBurger {
+    display: none;
+}
